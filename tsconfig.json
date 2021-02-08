@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "rootDirs": ["src"],
+        "jsx": "react",
+        "sourceMap": true,
+        "baseUrl": "src",
+        "paths": {
+            "@memoir": ["./*"]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "**/*.test.ts",
+        "**/*.test.tsx"
+    ]
+}
